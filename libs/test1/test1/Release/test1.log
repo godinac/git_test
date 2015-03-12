@@ -1,0 +1,29 @@
+﻿Build started 3/12/2015 4:32:57 PM.
+     1>Project "E:\reb_licenta\libs\test1\test1\test1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\test1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Informatica\visualstudio_2010\installed\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TEST1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test_func.cpp
+         test_func.cpp
+     1>test_func.cpp(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Informatica\visualstudio_2010\installed\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\reb_licenta\libs\test1\Release\test1.dll) does not match the Linker's OutputFile property value (E:\reb_licenta\output_libs\lib_robo_test.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(test1) does not match the Linker's OutputFile property value (lib_robo_test). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         E:\Informatica\visualstudio_2010\installed\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../output_libs/lib_robo_test.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\test1.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\reb_licenta\libs\test1\Release\test1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\reb_licenta\libs\test1\Release\test1.lib" /MACHINE:X86 /DLL Release\test_func.obj
+         labview.lib
+         labviewv.lib
+            Creating library E:\reb_licenta\libs\test1\Release\test1.lib and object E:\reb_licenta\libs\test1\Release\test1.exp
+         Generating code
+         Finished generating code
+         test1.vcxproj -> E:\reb_licenta\libs\test1\Release\test1.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../output_libs/lib_robo_test.dll;#2" /manifest Release\test1.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\test1.unsuccessfulbuild".
+         Touching "Release\test1.lastbuildstate".
+     1>Done Building Project "E:\reb_licenta\libs\test1\test1\test1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88

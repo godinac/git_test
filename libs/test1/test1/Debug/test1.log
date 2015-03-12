@@ -1,0 +1,45 @@
+﻿Build started 3/4/2015 8:40:09 PM.
+     1>Project "E:\reb_licenta\libs\test1\test1\test1.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\reb_licenta\libs\test1\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\test1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Informatica\visualstudio_2010\installed\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TEST1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test_func.cpp
+         test_func.cpp
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(220): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(221): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(222): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(223): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(224): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(225): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(230): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(231): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(232): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(233): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(234): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(235): warning C4244: '=' : conversion from 'float' to 'int32_t', possible loss of data
+     1>e:\reb_licenta\libs\test1\test1\test_func.cpp(244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\informatica\visualstudio_2010\installed\vc\include\stdio.h(371) : see declaration of 'sprintf'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\test1.dll.embed.manifest.res" Debug\test1_manifest.rc 
+       Link:
+         E:\Informatica\visualstudio_2010\installed\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\reb_licenta\libs\test1\Debug\test1.dll" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test1.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\reb_licenta\libs\test1\Debug\test1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\reb_licenta\libs\test1\Debug\test1.lib" /MACHINE:X86 /DLL Debug\test1.dll.embed.manifest.res
+         Debug\test_func.obj
+         labview.lib
+         labviewv.lib
+            Creating library E:\reb_licenta\libs\test1\Debug\test1.lib and object E:\reb_licenta\libs\test1\Debug\test1.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\test1.dll.embed.manifest" /manifest Debug\test1.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         test1.vcxproj -> E:\reb_licenta\libs\test1\Debug\test1.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\test1.unsuccessfulbuild".
+         Touching "Debug\test1.lastbuildstate".
+     1>Done Building Project "E:\reb_licenta\libs\test1\test1\test1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.05
